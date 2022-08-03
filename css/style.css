@@ -285,11 +285,11 @@ nav a:hover{
     /* ------- HOME */
 
     #home{
+        padding: 200px 50px;
     }
 
     #home .home-tittle{
         width: 100%;
-            padding: 200px 50px;
         font-size: 3em;
     }
 
