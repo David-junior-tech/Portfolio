@@ -22,6 +22,7 @@ a:link {
 
 .altura{
     height: 100vh;
+    padding: 200px;
 }
 
 body{
@@ -111,17 +112,14 @@ nav a:hover{
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    padding: 200px 100px;
-    border: none;
 }
 
 #home .home-tittle{
     text-indent: inherit;
-    width: 75%;
     margin: auto;
     text-align: left;
     font-size: 5.5em;
-    line-height: 1.7;
+    line-height: 1.8;
     transition: .5s;
     animation: animacaoHome 3s 1;
     padding: 30px 50px;
@@ -148,10 +146,6 @@ nav a:hover{
     }
 }
 
-#home .btn{
-    display: none;
-}
-
 #home .btn button{
     cursor: pointer;
     display: block;
@@ -174,14 +168,71 @@ nav a:hover{
 /* FIM DO HOME */
 
 
-/* COMEÇO DO SOBRE */
+/* COMEÇO DO ABOUT */
+
+    #about{
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .9em;
+    }
+
+    #photo{
+        width: 30%;
+        height: 300px;
+        border: 2px solid var(--cor0);
+        border-radius: 50%;
+    }
+
+    #about-info{
+        width: 60%;
+        padding: 20px;
+        border: 2px solid var(--cor0);
+        border-radius: 5px;
+    }
+
+    #about-info p{
+        margin: 8px 0;
+    }
+
+    #about-info_social{
+    }
+
+    #about-info_social a{
+        font-size: 2em;
+        margin: 5px 10px 5px 0;
+        cursor: pointer;
+    }
+
+    #about-info_social i{
+        cursor: pointer;
+    }
+
+    #about-info_social .fa-facebook{
+        color: #3b5998;
+    }
+
+    #about-info_social .fa-instagram{
+        color: #fff;
+        text-align: center;
+        line-height: 1.2;
+        width: 32px;
+        height: 32px;
+        border-radius: 5px;
+        background: linear-gradient(30deg, #feda77, #f58529, #dd2a7b, #8134af, #515bd4);
+    }
+
+    #about-info_social .fa-linkedin{
+        color: #007bb6;
+    }
 
 
-/* FIM DO HOME */
 
-#about{
-    background-color: red;
-}
+
+
+/* FIM DO ABOUT */
+
 
 #skills{
     background-color: greenyellow;
